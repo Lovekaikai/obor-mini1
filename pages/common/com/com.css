@@ -1,0 +1,439 @@
+page {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  /* min-height: 100%; */
+}
+
+/* 显示隐藏 */
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+/* 普通居中 */
+
+.align_center {
+  text-align: center;
+}
+
+.margin_center {
+  margin: 0 auto;
+}
+
+/* 普通居左居右 */
+
+.align_left {
+  text-align: left;
+}
+
+.align_right {
+  text-align: right;
+}
+
+/* 弹性盒子 */
+
+.flex {
+  display: flex;
+}
+
+.flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_grow {
+  flex-grow: 1;
+}
+
+.flex_item {
+  flex: 1;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_itemsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex_contentColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 行内前，后 */
+
+.flex_contentStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex_contentEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* 两端对齐 */
+
+.flex_contentbetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 弹性盒子居中 */
+
+.flex_items {
+  display: flex;
+  align-items: center;
+}
+
+.flex_content {
+  display: flex;
+  justify-content: center;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_centerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 定位 */
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+/* 定位居中 */
+
+.absolute_X {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.absolute_Y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.absolute_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.fixed_X {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fixed_Y {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed_center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 固定在顶部，底部，左边，右边 */
+
+.fixed_top {
+  position: fixed;
+  top: 0;
+}
+
+.fixed_bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.fixed_left {
+  position: fixed;
+  left: 0;
+}
+
+.fixed_right {
+  position: fixed;
+  right: 0;
+}
+
+.fixed_Centertop {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fixed_Centerbottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fixed_Centerleft {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed_Centerright {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.absolute_top {
+  position: absolute;
+  top: 0;
+}
+
+.absolute_bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.absolute_left {
+  position: absolute;
+  left: 0;
+}
+
+.absolute_right {
+  position: absolute;
+  right: 0;
+}
+
+.absolute_Centertop {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.absolute_Centerbottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.absolute_Centerleft {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.absolute_Centerright {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 边框 */
+
+.border {
+  border: 1px solid #d8d8d8;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.border_top {
+  border-top: 1px solid #d8d8d8;
+}
+
+.border_left {
+  border-left: 1px solid #d8d8d8;
+}
+
+.border_right {
+  border-right: 1px solid #d8d8d8;
+}
+
+/* 圆角边框 */
+
+.border_radius {
+  border-radius: 10upx;
+}
+
+.border_topleftRadius {
+  border-top-left-radius: 10upx;
+}
+
+.border_toprightRadius {
+  border-top-right-radius: 10upx;
+}
+
+.border_bottomleftRadius {
+  border-bottom-left-radius: 10upx;
+}
+
+.border_bottomrightRadius {
+  border-bottom-right-radius: 10upx;
+}
+
+.border_topRadius {
+  border-top-left-radius: 10upx;
+  border-top-right-radius: 10upx;
+}
+
+.border_bottomRadius {
+  border-bottom-left-radius: 10upx;
+  border-bottom-right-radius: 10upx;
+}
+
+.border_leftRadius {
+  border-top-left-radius: 10upx;
+  border-bottom-left-radius: 10upx;
+}
+
+.border_bottomRadius {
+  border-top-right-radius: 10upx;
+  border-bottom-right-radius: 10upx;
+}
+
+.head_radius {
+  border-radius: 50%;
+}
+
+/* 遮罩层(黑色背景，透明背景)*/
+
+.shade {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0upx;
+  left: 0upx;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.shade_white {
+  background: transparent;
+  position: fixed;
+  top: 0upx;
+  left: 0upx;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+/* 字体换行 */
+
+.wrap {
+  white-space: normal;
+}
+
+/* 字体不换行 */
+
+.nowrap {
+  white-space: nowrap !important;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+  overflow: hidden !important;
+}
+
+/* 超出不换行省略号表示 */
+
+.ellipsis {
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 超出3行换行省略 */
+
+.wrap_ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 去除button默认样式 */
+button{
+  position: static;
+  display: inline;
+  margin:0;
+  padding:0;
+  background: none;
+  border:none;
+  line-height:normal;
+}
+button::after{
+  border:none;
+}
+.button-hover{
+  color:transparent;
+  background:transparent;
+}
+
+/* 有搜索结果 */
+.result{
+  font-size:24upx;margin-top:16upx;
+}
+.result span{
+  color:#FF5454;margin:0 8upx;
+}
+/* 底线 */
+.bottomLine{
+  text-align:center;margin:32upx 0;font-size:24upx;color:rgba(0,0,0,0.25);
+}
+
+/* footer */
+.footer{
+  width:100%;
+  height:60upx;
+  font-size: 24upx;
+  color:#000;
+  position: fixed;
+ bottom: 0;
+ left: 0;
+ background: #f8f8f8;
+}

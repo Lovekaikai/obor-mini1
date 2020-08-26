@@ -1,0 +1,82 @@
+@import url("./com/com.css");
+@import url("./com/logo_title.css");
+
+page {
+  background: #fff;
+}
+
+/* logo,搜索 */
+.logo_search {
+  background: url('https://zs-1256645015.cos.ap-guangzhou.myqcloud.com/trace/2020/4/27/542a3dbe-c29e-4c06-8935-2b23309b795f.png');
+  background-size: 750upx 497upx;
+  width: 750upx;
+  height: 497upx;
+}
+
+.logo_search .logo {
+  margin-top: 83upx;
+  width: 108upx;
+  height: 108upx;
+}
+
+.logo_search .title {
+  color: #fff;
+  font-size: 36upx;
+  margin-top: 24upx;
+}
+
+.logo_search .search {
+  height: 72upx;
+  margin: 0 auto;
+  margin-top: 70upx;
+  width: 640upx;
+}
+
+.logo_search .search input {
+  width: 432upx;
+  background: #fff;
+  font-size: 28upx;
+  text-align: left;
+  padding: 0 24upx;
+  height: 72upx;
+}
+
+.logo_search .clickSearch {
+  width: 160upx;
+  background: #128bed;
+  color: #fff;
+  font-size: 32upx;
+}
+
+.clickSearch image {
+  width: 28upx;
+  height: 28upx;
+  margin-right: 13upx;
+}
+
+/* 商家类型 */
+
+.kinds {
+  width: 686upx;
+  height: 128upx;
+  background: rgba(165, 32, 36, 0.06);
+  margin: 24upx auto 0;
+  font-size: 32upx;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+
+.kinds image {
+  margin-right: 24upx;
+}
+
+/* 底部版权 */
+
+.copyright {
+  width: 750upx;
+  color: #fff;
+  background: #2f2f2f;
+  font-size: 22upx;
+  text-align: center;
+  padding: 32upx 0;
+}

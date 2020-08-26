@@ -1,0 +1,50 @@
+.shop{
+  padding: 22upx 24upx;
+  background:#fff;
+  margin-bottom:16upx;
+  font-size:24upx;
+}
+.shop:last-of-type{
+  margin-bottom: 0;
+}
+.shop image{
+  width: 144upx;height:144upx;
+  margin-right:28upx;
+}
+.shop .shopInfo{
+  width:530upx;
+}
+.shop .shopName{
+  width: 300upx;
+  font-size: 36upx;
+}
+.shop .brandName{
+  width:230upx;
+  color:#A52024;
+  display: flex;
+}
+.shop .brandName .tags{
+  padding:2upx 12upx;
+  border:1px solid #A52024;margin-left:10upx;border-radius:2upx;
+}
+.shop .tag{
+  margin:15upx 0 12upx;font-size:22upx;display: flex;
+}
+.shop .tag view{
+  padding:2upx 8upx;margin-left:12upx;
+  white-space: nowrap;
+word-break: break-all;
+word-wrap: break-word;
+}
+.shop .tag view:first-of-type{
+  margin-left:0upx;
+}
+.shop .tag .blue{
+  background:#E7F4FF;color:#128BED;
+}
+.shop .tag .red{
+background:#FFF4ED;color:#EC9662;
+}
+.shop .tag .green{
+  background:#E4FFF0;color:#009944;
+}

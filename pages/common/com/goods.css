@@ -1,0 +1,27 @@
+.goods{
+  padding: 22upx 24upx;
+  background:#fff;
+  margin-bottom:16upx;
+  font-size:24upx;
+}
+.goods:last-of-type{
+  margin-bottom: 0;
+}
+.goods image{
+  width: 144upx;height:144upx;
+  margin-right:28upx;
+}
+.goods .goodsName{
+  width: 400upx;
+  font-size: 36upx;
+}
+.goods .brandName{
+  width:130upx;
+  font-size: 24upx;
+  padding:6upx 0;
+  /* background:#E7F4FF; */
+  color:#128BED;margin-left:10upx;
+}
+.kinds{
+  margin:12upx 0;
+}
